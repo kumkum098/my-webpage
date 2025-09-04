@@ -1,0 +1,75 @@
+body {
+    background-color: #fff8f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Content */
+.content {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.pizza-image {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #fff3e0;
+    border: 1px solid black;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.testimonials h2 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    margin: 0;
+    font-size: large;
+}
